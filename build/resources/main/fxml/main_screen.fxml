@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng201.tut2.gui.MainScreenController">
+   <children>
+      <Button fx:id="slot1" layoutX="34.0" layoutY="10.0" mnemonicParsing="false" onAction="#slotSelected1" text="Button" />
+      <Button fx:id="slot2" layoutX="34.0" layoutY="45.0" mnemonicParsing="false" onAction="#slotSelected2" text="Button" />
+      <Button fx:id="slot3" layoutX="34.0" layoutY="80.0" mnemonicParsing="false" onAction="#slotSelected3" text="Button" />
+      <Button fx:id="slot4" layoutX="34.0" layoutY="115.0" mnemonicParsing="false" onAction="#slotSelected4" text="Button" />
+      <Button fx:id="slot5" layoutX="34.0" layoutY="150.0" mnemonicParsing="false" onAction="#slotSelected5" text="Button" />
+      <Button fx:id="slot6" layoutX="34.0" layoutY="185.0" mnemonicParsing="false" onAction="#slotSelected6" text="Button" />
+      <Button fx:id="slot7" layoutX="34.0" layoutY="220.0" mnemonicParsing="false" onAction="#slotSelected7" text="Button" />
+      <Button fx:id="slot8" layoutX="34.0" layoutY="255.0" mnemonicParsing="false" onAction="#slotSelected8" text="Button" />
+      <Button fx:id="slot9" layoutX="34.0" layoutY="290.0" mnemonicParsing="false" onAction="#slotSelected9" text="Button" />
+      <Button fx:id="slot10" layoutX="34.0" layoutY="325.0" mnemonicParsing="false" onAction="#slotSelected10" text="Button" />
+      <Button fx:id="slot11" layoutX="34.0" layoutY="360.0" mnemonicParsing="false" onAction="#slotSelected11" text="Button" />
+      <Button fx:id="slot12" layoutX="34.0" layoutY="395.0" mnemonicParsing="false" onAction="#slotSelected12" text="Button" />
+      <Button fx:id="slot13" layoutX="34.0" layoutY="430.0" mnemonicParsing="false" onAction="#slotSelected13" text="Button" />
+      <Button fx:id="slot14" layoutX="34.0" layoutY="465.0" mnemonicParsing="false" onAction="#slotSelected14" text="Button" />
+      <Button fx:id="slot15" layoutX="34.0" layoutY="500.0" mnemonicParsing="false" onAction="#slotSelected15" text="Button" />
+      <Button fx:id="slot16" layoutX="34.0" layoutY="535.0" mnemonicParsing="false" onAction="#slotSelected16" text="Button" />
+      <Button fx:id="slot17" layoutX="34.0" layoutY="570.0" mnemonicParsing="false" onAction="#slotSelected17" text="Button" />
+      <Button fx:id="slot18" layoutX="34.0" layoutY="605.0" mnemonicParsing="false" onAction="#slotSelected18" text="Button" />
+      <Button fx:id="slot19" layoutX="34.0" layoutY="640.0" mnemonicParsing="false" onAction="#slotSelected19" text="Button" />
+      <Button fx:id="slot20" layoutX="34.0" layoutY="675.0" mnemonicParsing="false" onAction="#slotSelected20" text="Button" />
+      <Label layoutX="14.0" layoutY="15.0" text="1." />
+      <Label layoutX="14.0" layoutY="50.0" text="2." />
+      <Label layoutX="14.0" layoutY="85.0" text="3." />
+      <Label layoutX="14.0" layoutY="120.0" text="4." />
+      <Label layoutX="14.0" layoutY="155.0" text="5." />
+      <Label layoutX="14.0" layoutY="190.0" text="6." />
+      <Label layoutX="14.0" layoutY="225.0" text="7." />
+      <Label layoutX="13.0" layoutY="260.0" prefHeight="17.0" prefWidth="11.0" text="8." wrapText="true" />
+      <Label layoutX="14.0" layoutY="295.0" prefHeight="17.0" prefWidth="17.0" text="9." />
+      <Label layoutX="10.0" layoutY="330.0" prefHeight="17.0" prefWidth="17.0" text="10." />
+      <Label layoutX="11.0" layoutY="365.0" prefHeight="17.0" prefWidth="17.0" text="11." />
+      <Label layoutX="11.0" layoutY="400.0" prefHeight="17.0" prefWidth="17.0" text="12." />
+      <Label layoutX="11.0" layoutY="435.0" prefHeight="17.0" prefWidth="17.0" text="13." />
+      <Label layoutX="11.0" layoutY="470.0" prefHeight="17.0" prefWidth="17.0" text="14." />
+      <Label layoutX="11.0" layoutY="505.0" prefHeight="17.0" prefWidth="17.0" text="15." />
+      <Label layoutX="11.0" layoutY="540.0" prefHeight="17.0" prefWidth="17.0" text="16." />
+      <Label layoutX="11.0" layoutY="575.0" prefHeight="17.0" prefWidth="17.0" text="17." />
+      <Label layoutX="11.0" layoutY="610.0" prefHeight="17.0" prefWidth="17.0" text="18." />
+      <Label layoutX="11.0" layoutY="645.0" prefHeight="17.0" prefWidth="17.0" text="19." />
+      <Label layoutX="10.0" layoutY="680.0" prefHeight="17.0" prefWidth="24.0" text="20." />
+      <Label fx:id="numberLabel" layoutX="99.0" layoutY="203.0" text="NUMBER">
+         <font>
+            <Font name="Avenir Black" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="generateButton" layoutX="152.0" layoutY="240.0" mnemonicParsing="false" onAction="#onGenerateButtonPressed" prefHeight="30.0" prefWidth="136.0" text="Generate number">
+         <font>
+            <Font name="Avenir Roman" size="13.0" />
+         </font></Button>
+      <Text layoutX="113.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your mission, should you choose to accept it, is to place 20 random numbers in order. You can only see one number at a time, and once you have picked where a number goes you can’t change it. You lose if you can’t put a number in a valid slot." textAlignment="JUSTIFY" wrappingWidth="250.0">
+         <font>
+            <Font name="Avenir Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="127.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20 NUMBER CHALLENGE">
+         <font>
+            <Font name="Avenir Black" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="resetButton" layoutX="261.0" layoutY="641.0" mnemonicParsing="false" onAction="#onResetClicked" prefHeight="20.0" text="Reset">
+         <font>
+            <Font name="Avenir Roman" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lostLabel1" layoutX="136.0" layoutY="646.0" text="Wanna play again?">
+         <font>
+            <Font name="Avenir Roman" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lostLable" layoutX="160.0" layoutY="605.0" text="Sorry, you lost!">
+         <font>
+            <Font name="Avenir Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="winLabel1" layoutX="127.0" layoutY="509.0" prefHeight="17.0" prefWidth="222.0" text="Congratulations, you won!">
+         <font>
+            <Font name="Avenir Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="winLabel2" layoutX="124.0" layoutY="549.0" prefHeight="17.0" prefWidth="228.0" text="The odds of winning are about 1 in 13000!" />
+      <Label layoutX="110.0" layoutY="308.0" text="Current Score: ">
+         <font>
+            <Font name="Avenir Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="338.0" text="Best Score:">
+         <font>
+            <Font name="Avenir Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentScoreLabel" layoutX="281.0" layoutY="308.0" text=" 0">
+         <font>
+            <Font name="Avenir Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="bestScoreLabel" layoutX="281.0" layoutY="338.0" text=" 0">
+         <font>
+            <Font name="Avenir Roman" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
