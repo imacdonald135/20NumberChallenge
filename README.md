@@ -1,3 +1,12 @@
+## IMPORTANT
+This project that I developed started from a starting repository with gradele and JDK 17 and used JavaFX and Junit5.
+However I heavily changed the functionality of the first app that was built in the lab to this game.
+
+## How the game is played
+A RNG will give you a number between 1-999 and you have to selec where out of 20 slots it will goal, with the end goal    
+to put 20 random numbers in order without knowing what the next numbers you will get are.
+
+
 # SENG201 Tut 2 Project Overview
 This project is built off the same base project as the starting project for your assignment.
 
