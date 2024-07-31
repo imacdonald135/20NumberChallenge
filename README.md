@@ -1,5 +1,5 @@
 ## IMPORTANT
-This project that I developed started from a starting repository with gradele and JDK 17 and used JavaFX and Junit5.
+This project that I developed started from a starting repository with gradle and JDK 17 and used JavaFX and Junit5.
 However I heavily changed the functionality of the first app that was built in the lab to this game.
 
 ## How the game is played
